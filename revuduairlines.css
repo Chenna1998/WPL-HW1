@@ -1,0 +1,188 @@
+﻿body {
+   
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header styles */
+.header {
+    background-color: #9cdddd;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px #ff0000;
+}
+
+/* Logo styles */
+.logo {
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Horizontal Nagation Bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+li {
+    float: left;
+}
+
+li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+li a:hover {
+            background-color: #a18d8d;
+        }
+
+.active {
+    background-color: #7da9ec;
+}
+/* Main column */
+.main {
+    -ms-flex: 60%;
+    flex: 50%;
+    background-color: white;
+    padding: 20px;
+    
+}
+.main2 {
+    -ms-flex: 60%;
+    flex: 50%;
+    background-color: white;
+    padding: 20px;
+    background-image: url("hotel.png");
+}
+.side {
+    -ms-flex: 40%; 
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    flex-direction: column;
+}
+.row {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+}
+
+/*side img*/
+.background  {
+    
+    width: 50%;
+    padding: 20px;  
+   
+}
+.taj {
+    width: 40%;
+    //padding: 20px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    clear: both;
+    background-color: #9cdddd;
+}
+.terms {
+    font-style: oblique;
+}
+table, th, td {
+   // border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+
+
+}
+
+#myForm{
+    width:100%;
+}
+
+span{
+    font-size:10px;
+    font-weight:lighter;
+}
+
+#email{
+    height:3vh;
+    margin-top:2%;
+    margin-bottom:1.5%;
+    padding:5px;
+    margin-left:35%;
+    border-radius:10px;
+    width:30%;
+   
+    
+}
+#subscribe{
+    width:20%;
+    margin-left:40%;
+    height:3vh;
+    font-weight:bold
+
+}
+
+#subscribe:hover {
+    width: 20%;
+    background-color:forestgreen;
+    color:white;
+    font-weight:bold;
+    height: 3vh;
+}
+
+.flightMain {
+   //ackground-color:red;
+    background-image: url("flight.jpg");
+    background-repeat:no-repeat;
+    opacity:0.5;
+}
+.hotel {
+   
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#mySearch{
+    border-width:thin;
+    border-style:double;
+    border:1px solid black;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+img.im {
+    vertical-align: super;
+}
+
